@@ -1,0 +1,82 @@
+/* CSS Document */
+
+body {font-family: Verdana; font-size:11px; color:#333333; }
+td {font-size:11px;}
+
+
+.cdiv_1 { height: 100px; padding:10px; background: #F5F5F5;
+ border-top: #D0D0D0 1px solid; 
+ border-left: #D0D0D0 1px  solid; 
+ border-right: #D0D0D0 1px  solid; 
+ border-bottom: #D0D0D0 1px solid; }
+.cdiv_1 div{ margin:3px  }
+.cdiv_1 p {float: left; margin: 3px 5px 1px 0; width: 120px; text-align:right; color: #888888;
+font-weight:bold }
+.cdiv_1 .campo { border: #cccccc 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px; color: #000000; }
+.cdiv_1 .boton { border: #999999 1px solid; font-family:Arial, Helvetica, sans-serif;
+font-size: 11px; color: #FFF; background:#333333; font-weight:bold }
+
+.btn_img { cursor: pointer }
+
+#log {
+	float: left;
+	padding: 0.5em;
+	margin-left: 10px;
+	width: 290px;
+	border: 1px solid #d6d6d6;
+	border-left-color: #e4e4e4;
+	border-top-color: #e4e4e4;
+	margin-top: 10px;
+}
+ 
+#log_res { overflow: auto; font-weight:bold; color: #FF3300 }
+ 
+#log_res.ajax-loading {
+	padding: 20px 0;
+	background: url(../vn_images/ajax-loader.gif) no-repeat center;
+}
+
+#cabecera {background: #FFF; height:70px}
+#cabecera h1 { font-family: "Arial Black"; color:#FF8125; font-style:italic; display:block; margin:10px  }
+#cabecera p { display:block; margin:10px  }
+
+#menu { color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; height:80px; width:800px}
+#menu a {display:block; float:left; padding:5px; width:100px; border:1px solid #EEE; 
+margin:1px; text-align:center; cursor:pointer; text-decoration:none; color:#333333 }  
+#menu a:hover { background: #EEE; color: #000 ; border-color:#CCC  }  
+
+
+#content { font-size:11px}
+
+#datos {font-size: 11px; }
+#datos .opciones_on { width:100px; }
+#datos .opciones_off { width:100px; }
+#datos a{cursor:pointer}
+#mensaje {height:30px; font-weight:bold; color:#0033FF; }
+
+#div_vista  {position: relative; height: 220px; width: 400px;
+background:#DDDDDD;
+border-bottom: 1px solid #333333; border-left: 1px solid #333333;
+border-top: 1px solid #333333; border-right: 1px solid #333333; 
+font-family: tahoma; }
+#div_enlace {height: 20px; width: 400px; background: #AAAAAA; color: #FFF; font-size: 11px;
+font-family:tahoma; color:#000000; text-align:center }
+#div_enlace p{ padding-left:3px; margin:0 }
+#frm_vista  {height: 200px; width: 398px; }
+#div_paginador td{ height:25px; width:25px; border:#999999 1px solid; text-align:center}
+#div_paginador td.activo{ background: #CCCCCC  }
+#div_paginador a{ text-decoration:none; color:#555}
+#div_paginador a:hover{ font-weight:bold}
+
+.recuadro_loging { width: 971px; border:1px solid #211915; background:url(../images/fondo.jpg); margin-left:auto; margin-right:auto; text-align:left }
+.botonnaranja { font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #ffffff; border-style: solid; border-color: #333399; background-color: #333399; border-width:1; font-weight:bold;}
+.parrafo_001 { color:#c3651c; font-size:12px; }
+.text { font-family: Helvetica, Arial, sans-serif; color:#333333; font-size:16px; padding-bottom: 10px; padding-right: 10px; padding-top: 2px;}
+.campo_001 {border:1px dotted #333333; font-family:Helvetica, Arial, sans-serif; font-size:11px; font-weight:normal} 
+#title h1 { width: 639px; height: 100px; background: url(../images/cabecara.png) left top no-repeat; text-indent: -5000px; }
+#subtitle h3 { font-family:Helvetica, Arial, sans-serif; color:#333; font-size:20px; padding-left: 5px;}
+.divider { font-size:1px; height: 5px; line-height: 1px; margin: 8px 0; background: transparent url(../images/back_title.png) repeat top left; width:100%;}
+#opciones a{ font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #ffffff; background-color: #333399; font-weight:bold; padding: 4px; text-decoration:none;}
+#opciones a:hover{ font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #333399; background-color: #FFFFFF; font-weight:bold; padding: 2px; text-decoration:none;}
+.cabecera{ font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #ffffff; background-color: #333333; font-weight:normal; }

@@ -1,0 +1,129 @@
+﻿/* LINK VISTED HOVER ACTIVE selectors must remain in this order to work */
+a.enlace-little:link
+{
+    font-family: Arial;
+    font-size: .90em;
+    font-weight: bold;
+    color: Maroon;
+    text-decoration: none;
+}
+
+a.enlace-little:visited
+{
+    font-family: Arial;
+    font-size: .90em;
+    font-weight: bold;
+    color: Maroon;
+    text-decoration: none;
+}
+
+a.enlace-little:hover
+{
+    font-family: Arial;
+    font-size: .90em;
+    color: Maroon;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.enlace-little:active
+{
+    font-family: Arial;
+    font-size: .90em;
+    font-weight: bold;
+    color: Maroon;
+    text-decoration: none;
+}
+/* All link states are selected with an "a" */
+#header a.enlace-little
+{
+    color: Maroon;
+}
+
+#breadcrumb-container a.enlace-little
+{
+    color: Maroon;
+}
+
+/* LINK VISTED HOVER ACTIVE selectors must remain in this order to work */
+a.enlace-button:link
+{
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+a.enlace-button:visited
+{
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+a.enlace-button:hover
+{
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+a.enlace-button:active
+{
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* All link states are selected with an "a" */
+#header a.enlace-button
+{
+    color: inherit;
+}
+
+#breadcrumb-container a.enlace-button
+{
+    color: inherit;
+}
+
+/* LINK VISTED HOVER ACTIVE selectors must remain in this order to work */
+a.enlace-history:link
+{
+    font-family: Arial;
+    font-size: 0.96em;
+    font-weight: bold;
+    color: #0000A0;
+}
+
+a.enlace-history:visited
+{
+    font-family: Arial;
+    font-size: 0.96em;
+    font-weight: bold;
+    color:#0000A0;
+}
+
+a.enlace-history:hover
+{
+    font-family: Arial;
+    font-size: 0.96em;
+    color: #0000A0;
+    font-weight: bold;
+}
+
+a.enlace-history:active
+{
+    font-family: Arial;
+    font-size: 0.96em;
+    font-weight: bold;
+    color: #0000A0;
+}
+/* All link states are selected with an "a" */
+#header a.enlace-history
+{
+    color: #0000A0;
+}
+
+#breadcrumb-container a.enlace-history
+{
+    color: #0000A0;
+}
