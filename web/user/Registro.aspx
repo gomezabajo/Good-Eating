@@ -93,7 +93,7 @@
                                         </fieldset>
                                         <br />
                                         <br />
-                                        <asp:Button runat="server" ID="Insertar" Text="Guardar usuario" OnClick="Insertar_Click" />
+                                        <asp:Button runat="server" ID="Insertar" Text="Save data" OnClick="Insertar_Click" />
                                         <br />
                                         <br />
                                         (*) Mandatory fields

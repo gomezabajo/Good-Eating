@@ -34,36 +34,36 @@ public partial class _Registro : System.Web.UI.Page
             u.Login = HttpContext.Current.Request["usuario"];
             if (u.Login == string.Empty)
             {
-                throw new Exception("El nombre de usuario no es válido");
+                throw new Exception("Not valid username");
             }
             string clave_user = HttpContext.Current.Request["clave_rep"];
             if (clave_user == string.Empty)
             {
-                throw new Exception("La clave del usuario no es válida");
+                throw new Exception("Not valid password");
             }
             if (u.Clave == string.Empty)
             {
-                throw new Exception("La clave del usuario no es válida");
+                throw new Exception("Not valid password");
             }
             u.Clave = HttpContext.Current.Request["clave"];
             if (u.Clave != clave_user)
             {
-                throw new Exception("Las claves del usuario no coinciden");
+                throw new Exception("Passwords do not match");
             }
             u.Nombre = HttpContext.Current.Request["nombre_user"];
             if (u.Nombre == string.Empty)
             {
-                throw new Exception("El nombre completo del usuario no es válido");
+                throw new Exception("Not valid complete name");
             }
             u.Apellidos = HttpContext.Current.Request["apellidos_user"];
             if (u.Apellidos == string.Empty)
             {
-                throw new Exception("Los apellidos del usuario no son válidos");
+                throw new Exception("Not valid surname");
             }
             u.Email = HttpContext.Current.Request["email_user"];
             if (Escape.IsValidEmail(u.Email) != true)
             {
-                throw new Exception("La dirección de correo del usuario no es válida");
+                throw new Exception("Not valid e-mail");
             }
             u.Notas = HttpContext.Current.Request["notas_user"];
             u.Fec_baja = null;
@@ -79,26 +79,26 @@ public partial class _Registro : System.Web.UI.Page
                 f.Nombre = HttpContext.Current.Request["nombre_fam"];
                 if (f.Nombre == string.Empty)
                 {
-                    throw new Exception("El nombre de la familia no es válido");
+                    throw new Exception("Not valid family name");
                 }
                 string clave_fam = HttpContext.Current.Request["clave_fam_rep"];
                 if (clave_fam == string.Empty)
                 {
-                    throw new Exception("La clave de la familia no es válida");
+                    throw new Exception("Not valid family password");
                 }
                 f.Clave = HttpContext.Current.Request["clave_fam"];
                 if (f.Clave == string.Empty)
                 {
-                    throw new Exception("La clave de la familia no es válida");
+                    throw new Exception("Not valid family password");
                 }
                 if (f.Clave != clave_fam)
                 {
-                    throw new Exception("Las claves de la familia no coinciden");
+                    throw new Exception("Family passwords do not match");
                 }
                 f.Email = HttpContext.Current.Request["email_fam"];
                 if (Escape.IsValidEmail(f.Email) != true)
                 {
-                    throw new Exception("La dirección de correo de la familia no es válida");
+                    throw new Exception("Not valid family e-mail");
                 }
                 f.Notas = HttpContext.Current.Request["notas_fam"];
                 f.Insertar();
@@ -111,13 +111,13 @@ public partial class _Registro : System.Web.UI.Page
                 string clave_fam = HttpContext.Current.Request["clave_fam_check"];
                 if (f.Clave != clave_fam)
                 {
-                    throw new Exception("Las claves de la familia no coinciden");
+                    throw new Exception("Family passwords do not match");
                 }
             }
 
             if (f == null)
             {
-                throw new Exception("No se ha creado o asignado una familia");
+                throw new Exception("Not created or assigned family");
             }
             u.Familia = f;
             u.Insertar();
