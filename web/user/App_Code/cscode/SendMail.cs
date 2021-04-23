@@ -11,11 +11,11 @@ using System.Net.Mail;
 /// </summary>
 public class SendMail
 {
-    private string smtpAddress = "smtp.imasp.net";
+    private string smtpAddress = "smtp.server.net";
     private int portNumber = 587;
     private bool enableSSL = false;
-    private string emailFrom = "gestiondocumental@imasp.net";
-    private string password = "Imaspgest12";
+    private string emailFrom = "server@server.net";
+    private string password = "password";
 
     public string emailTo = string.Empty;
     public List<string> emailCC = null;
