@@ -1,6 +1,12 @@
-# Good-Eating
+<p align="center">
+  <a href="https://github.com/gomezabajo/Good-Eating">
+    <img src="https://www.gomezabajo.es/pablo/images/good-eating.png" width="120" height="120" alt="Good-Eating logo" />
+  </a>
+</p>
 
-An adaptive food recommendation system for people on special diets.
+<h1 align="center">Good-Eating</h1>
+
+<p align="center"><i>An adaptive food recommendation system for people on special diets</i></p>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
