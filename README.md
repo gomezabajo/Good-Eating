@@ -8,10 +8,14 @@
 
 <p align="center"><i>An adaptive food recommendation system for people on special diets</i></p>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stars][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0-blue" alt="Version 1.0">
+  <a href="https://img.shields.io/github/contributors/gomezabajo/Good-Eating"><img src="https://img.shields.io/github/contributors/gomezabajo/Good-Eating" alt="Contributors"></a>
+  <a href="https://github.com/gomezabajo/Good-Eating/network/members"><img src="https://img.shields.io/github/forks/gomezabajo/Good-Eating" alt="Forks"></a>
+  <a href="https://github.com/gomezabajo/Good-Eating/stargazers"><img src="https://img.shields.io/github/stars/gomezabajo/Good-Eating" alt="Stars"></a>
+  <a href="https://raw.githubusercontent.com/gomezabajo/Good-Eating/master/LICENSE"><img src="https://img.shields.io/github/license/gomezabajo/Good-Eating" alt="License"></a>
+  <a href="https://img.shields.io/github/issues/gomezabajo/Good-Eating"><img src="https://img.shields.io/github/issues/gomezabajo/Good-Eating" alt="Issues"></a>
+</p>
 
 ## Overview
 
