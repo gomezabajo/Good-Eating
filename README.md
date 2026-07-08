@@ -119,11 +119,11 @@ Copyright (c) 2026 [Universidad Autónoma de Madrid](https://www.uam.es/).
 
 Note: TinyMCE and Epoch are third-party components with their own licenses.
 
-[contributors-shield]: https://img.shields.io/github/contributors/gomezabajo/Good-Eating?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/gomezabajo/Good-Eating
 [contributors-url]: https://github.com/gomezabajo/Good-Eating/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/gomezabajo/Good-Eating?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/gomezabajo/Good-Eating
 [forks-url]: https://github.com/gomezabajo/Good-Eating/network/members
-[stars-shield]: https://img.shields.io/github/stars/gomezabajo/Good-Eating?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/gomezabajo/Good-Eating
 [stars-url]: https://github.com/gomezabajo/Good-Eating/network/stargazers
-[issues-shield]: https://img.shields.io/github/issues/gomezabajo/Good-Eating?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/gomezabajo/Good-Eating
 [issues-url]: https://github.com/gomezabajo/Good-Eating/issues
